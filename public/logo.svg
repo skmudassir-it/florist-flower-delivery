@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:oklch(0.52 0.22 10)"/>
+      <stop offset="100%" style="stop-color:oklch(0.35 0.18 15)"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#bg)"/>
+  <g transform="translate(100,100)" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Petal left -->
+    <ellipse cx="-22" cy="-10" rx="18" ry="28" transform="rotate(-20 -22 -10)" fill="white" opacity="0.9"/>
+    <!-- Petal right -->
+    <ellipse cx="22" cy="-10" rx="18" ry="28" transform="rotate(20 22 -10)" fill="white" opacity="0.9"/>
+    <!-- Petal top -->
+    <ellipse cx="0" cy="-32" rx="16" ry="26" fill="white" opacity="0.9"/>
+    <!-- Petal bottom-left -->
+    <ellipse cx="-16" cy="12" rx="14" ry="24" transform="rotate(-40 -16 12)" fill="white" opacity="0.85"/>
+    <!-- Petal bottom-right -->
+    <ellipse cx="16" cy="12" rx="14" ry="24" transform="rotate(40 16 12)" fill="white" opacity="0.85"/>
+    <!-- Center -->
+    <circle cx="0" cy="0" r="10" fill="oklch(0.7 0.15 60)"/>
+  </g>
+  <!-- Small leaf accent -->
+  <ellipse cx="88" cy="120" rx="14" ry="6" fill="oklch(0.62 0.14 155)" transform="rotate(30 88 120)" opacity="0.9"/>
+</svg>
